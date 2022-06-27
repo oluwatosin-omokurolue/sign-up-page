@@ -149,3 +149,58 @@ flex-direction: column;
     justify-content: space-between;
     
 }
+
+@media screen and (max-width: 1280px) {
+    body{
+        width: 90vh ;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    
+}
+
+@media screen and (max-width: 767px) {
+
+    body{
+        width: 80vw;
+    }
+
+    .nav-bar{
+        font-size: 10px;
+        padding: 8px;
+
+    }
+
+    .btn-1{
+        padding: 3px;
+    }
+
+    .header-container{
+        text-align: center;
+    }
+
+    .paragraph{
+        width: 250px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center ;
+    }
+
+    .input-icon{
+        position: absolute;
+        right:20%;
+        padding: 15px;
+    }
+
+
+
+}
